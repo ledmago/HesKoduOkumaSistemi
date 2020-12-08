@@ -182,10 +182,10 @@ while True:
                             time.sleep(1)
 
                             #tc no yazma
-                            browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("30478270056")
+                            browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("tc")
 
                             #şifre yazma
-                            browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("BATUhan123.")
+                            browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("sifre")
 
                             #giriş
 
@@ -338,10 +338,10 @@ while True:
                             time.sleep(1)
 
                             #tc no yazma
-                            browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("30478270056")
+                            browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("tc")
 
                             #şifre yazma
-                            browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("BATUhan123.")
+                            browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("sifre")
 
                             #giriş
 
