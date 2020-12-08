@@ -40,10 +40,10 @@ browser = webdriver.Chrome(executable_path=driver_path)
 browser.get("https://giris.turkiye.gov.tr/Giris/gir")
 time.sleep(1)
 #tc no yazma
-browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("13714829454")
+browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("tc")
 
             #şifre yazma
-browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("BATUhan123.")
+browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("sifre.")
 
 kod_okudum_qr=""
 try:
@@ -340,10 +340,10 @@ while True:
                             time.sleep(1)
     
                             #tc no yazma
-                            browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("13714829454")
+                            browser.find_element_by_xpath('//*[@id="tridField"]').send_keys("tc")
     
                             #şifre yazma
-                            browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("BATUhan123.")
+                            browser.find_element_by_xpath('//*[@id="egpField"]').send_keys("sifre")
     
                             #giriş
     
